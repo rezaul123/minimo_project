@@ -1,0 +1,135 @@
+body{
+
+margin: 0;
+
+padding: 0;
+
+font-size: 18px;
+
+color: gray;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: gray;
+}
+nav ul li a:hover{}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+
+
+.article-section{}
+.container-box{width: 1000px;margin: 0 auto;}
+.article{
+    padding: 30px 0;
+}
+.article span{
+    color: #a9a5a5;
+}
+.article h1{
+    font-size: 35px;
+}
+.article p{}
+.article a{
+    text-decoration: none;
+}
+.article a span{}
+
+
+.gallary-box{
+    overflow: hidden;
+}
+.gallary{
+    width: 50%;
+    float: left;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.gallary span{}
+.gallary h1{}
+.gallary p{}
+.gallary img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    background: #b7b4b4;
+    padding: 30px 0;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li{
+    list-style: none;
+    float: left;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.footer-menu ul li a:hover{}
+
+
+.social-menu{
+    width: 50%;
+    display: inline-block;
+}
+.social-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: inline;
+}
+.social-menu ul li span{
+    font-size: 12px;
+}
+.social-menu ul li a{
+    color: gray;
+    font-size: 10px;
+}
+.social-menu ul li a:hover{}
